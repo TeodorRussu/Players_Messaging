@@ -1,5 +1,5 @@
 package player;
 
-public enum PlayerGroup {
+public enum PlayerGroupType {
     INITIATOR, SUPPORTER
 }

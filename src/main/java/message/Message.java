@@ -1,7 +1,6 @@
 package message;
 
-import player.GroupCounter;
-import player.PlayerGroup;
+import player.PlayerGroupType;
 
 /**
  * Message object will be used to post messages by a player to the MessagePool
@@ -12,23 +11,23 @@ import player.PlayerGroup;
  */
 public class Message {
 
-    private PlayerGroup senderGroup;
-    private PlayerGroup recipientGroup;
+    private PlayerGroupType senderGroup;
+    private PlayerGroupType recipientGroup;
     private String messageText = "initial";
 
-    public PlayerGroup getSenderGroup() {
+    public PlayerGroupType getSenderGroup() {
         return senderGroup;
     }
 
-    public void setSenderGroup(PlayerGroup senderGroup) {
+    public void setSenderGroup(PlayerGroupType senderGroup) {
         this.senderGroup = senderGroup;
     }
 
-    public PlayerGroup getRecipientGroup() {
+    public PlayerGroupType getRecipientGroup() {
         return recipientGroup;
     }
 
-    public void setRecipientGroup(PlayerGroup recipientGroup) {
+    public void setRecipientGroup(PlayerGroupType recipientGroup) {
         this.recipientGroup = recipientGroup;
     }
 

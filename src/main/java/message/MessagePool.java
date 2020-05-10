@@ -12,7 +12,6 @@ public class MessagePool {
     }
 
     private static class Holder {
-
         private static final MessagePool INSTANCE = new MessagePool();
     }
 
